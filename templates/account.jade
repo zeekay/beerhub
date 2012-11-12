@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  p
+    != user.id
+  p
+    != user.username
+  p
+    != user.displayName
+  p
+    != user.emails[0].value
