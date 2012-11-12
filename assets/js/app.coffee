@@ -1,7 +1,3 @@
-->
-  userResults: template 'search/user-results'
-  repoResults: template 'search/repo-results'
-
 ($ '#search-query').submit ->
   query = ($ '#search-query > input').val()
   type  = ($ '#search-query').data 'search-type'
